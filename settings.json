@@ -1,0 +1,31 @@
+{
+    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+    "editor.tokenColorCustomizations": {
+        
+        "textMateRules": [
+            {
+                "scope": "meta.function-call.generic.python",
+                "settings": {
+                    "foreground": "#66d9ef",
+                }
+            },
+            {
+                "scope": "meta.member.access.python",
+                "settings": {
+                    "foreground": "#ee46d8",
+                },
+
+            }
+        ]
+    
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.largeFileOptimizations": false,
+    "workbench.colorCustomizations": {
+    
+    }
+}

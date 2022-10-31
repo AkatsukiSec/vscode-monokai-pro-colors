@@ -16,10 +16,24 @@
             {
                 "scope": "meta.member.access.python",
                 "settings": {
-                    "foreground": "#ee46d8",
+                    "foreground": "#84e68d",
                 },
 
-            }
+                
+                
+
+            },
+
+            {
+                "scope": "keyword.control.flow.python",
+                "settings": {
+                    "foreground": "#ee46d8",
+                }},
+            {
+                "scope": "entity.name.function.python",
+                "settings": {
+                    "foreground": "#a076cf",
+                }},
         ]
     
     },
@@ -27,5 +41,9 @@
     "editor.largeFileOptimizations": false,
     "workbench.colorCustomizations": {
     
-    }
+    },
+    "json.schemas": [
+    
+    ],
+    "keyboard.dispatch": "keyCode"
 }
